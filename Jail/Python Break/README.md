@@ -21,6 +21,8 @@ Instead of accessing a variable, the challenge required participants to break ou
 2. Gaining root access to the container or directly reading the file<br/>
   ```python
   print(os.system("/bin/bash"))
-  ``` or ```python
+  ```
+  or 
+  ```python
   print(os.read(os.open('/root/src/flag.txt', os.O_RDONLY),100))
   ```
