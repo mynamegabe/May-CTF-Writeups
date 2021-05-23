@@ -7,7 +7,7 @@
 - lsb
 
 ### Analysis
-The file provided is a data file, opening the file in Notepad shows that its just Hexadecimal
+The file provided is a data file, opening the file in Notepad shows that its just Hexadecimal<br />
 The challenge name suggests that Least Significant Bits(LSB) is part of the challenge
 
 ### Solution
