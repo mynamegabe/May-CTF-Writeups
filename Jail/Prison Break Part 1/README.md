@@ -12,4 +12,6 @@
 This challenge only requires users to figure out it is a python code executor
 
 ### Solution
-1. ```print(flag)```
+1. ```python
+   print(flag)
+   ```
