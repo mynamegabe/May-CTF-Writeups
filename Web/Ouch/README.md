@@ -13,5 +13,5 @@ The challenge name and the website suggests that it is an SQL Injection attack.
 
 ### Solution
 1. ```sql
-' OR 1=1 --
-```
+   ' OR 1=1 --
+   ```
