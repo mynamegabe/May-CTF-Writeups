@@ -9,8 +9,8 @@
 - N/A
 
 ### Analysis
-Participants were expected to figure out that this was also a Python code executor<br/>
-Instead of accessing a variable, the challenge required participants to break out of the Python environment to access the flag by using the OS module
+Participants were expected to figure out that this was also a Python code executor.<br/>
+Instead of accessing a variable, the challenge required participants to break out of the Python environment to access the flag by using the OS module.
 
 ### Solution
 1. To locate the flag file<br/>
