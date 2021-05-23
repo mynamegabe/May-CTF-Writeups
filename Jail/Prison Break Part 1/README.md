@@ -2,6 +2,7 @@
 ## Jail
 
 > you think u can get outta deez barz
+nc 159.89.194.7 1338
 
 ### Files
 - N/A
