@@ -12,4 +12,6 @@ The website has a search function to search for websites which will then return 
 The challenge name and the website suggests that it is an SQL Injection attack.
 
 ### Solution
-1. ```' OR 1=1 --```
+1. ```sql
+' OR 1=1 --
+```
