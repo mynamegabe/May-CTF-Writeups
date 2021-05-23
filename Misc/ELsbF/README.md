@@ -20,10 +20,10 @@ The challenge name suggests that Least Significant Bits(LSB) is part of the chal
    Paste the hex dump into a Hex editor such as HxD
 4. Get the flag
    Execute the file with
-   ```bash
+   ```shell
    ./lsb
    ```
    or
-   ```bash
+   ```shell
    strings lsb
    ```
