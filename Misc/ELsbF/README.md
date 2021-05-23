@@ -19,4 +19,4 @@ The challenge name suggests that Least Significant Bits(LSB) is part of the chal
 3. Craft the file
    Paste the hex dump into a Hex editor such as HxD
 4. Get the flag
-   Execute the file with ```./lsb``` or ```strings lsb```
+   Execute the file with ```bash./lsb``` or ```strings lsb```
