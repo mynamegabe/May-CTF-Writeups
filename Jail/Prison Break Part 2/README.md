@@ -14,6 +14,8 @@ This challenge was quite broken as no hints were provided as I assumed participa
 It requires the use of Python builtins
 
 ### Solution
-1. ```help(flag)```
+1. ```python
+   help(flag)
+   ```
 
 ##### __This challenge was taken directly from b01lers CTF__
