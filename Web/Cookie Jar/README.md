@@ -9,9 +9,9 @@
 - N/A
 
 ### Analysis
-Website is a simple username input page<br />
-The challenge name suggests that the challenge is related to the cookies<br />
-The Flag tab is inaccessible
+Website is a simple username input page.<br />
+The challenge name suggests that the challenge is related to the cookies.<br />
+The Flag tab is inaccessible.
 
 ### Solution
 1. Enter a random username
