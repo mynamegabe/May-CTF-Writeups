@@ -11,7 +11,7 @@
 - N/A
 
 ### Analysis
-The website has an image upload but checks for the .php extension
+The website has an image upload but checks for the .png or .jpg extension
 
 ### Solution
 1. Similar to [Superior File Manager](https://github.com/mynamegabe/May-CTF-Writeups/edit/main/Web/Superior-File-Manager),<br />
