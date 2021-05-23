@@ -12,6 +12,17 @@
 Analyse encoder.py, it is slightly obfuscated<br />
 The code uses the ASCII number of the previous character in the input to encode the next character
 
+encoder.py
+```python
+def lMaO(fHpr):
+    kJqB = ""
+    lKyM = " "
+    for sDhe in fHpr:
+        kJqB += chr(ord(sDhe)+ord(lKyM))
+        lKyM = sDhe
+    return kJqB
+```
+
 ### Solution
 1. Write a script like solve.py -> decode() with the encoded string
    ```python
