@@ -21,7 +21,7 @@ The challenge name suggests that they should attempt a Buffer Overflow exploit.
    Upon disassembling the binary, the printFlag() function can be seen<br />
    ```gdb bofez```<br />
    To find the memory address of the printFlag() function, use ```info functions```<br />
-   printFlag() : 0x401192
+   > printFlag() : 0x401192
 3. Convert the memory address
    Convert the hexadecimal memory address to Little-Endian format<br />
    > \x92\x11\x40
