@@ -22,4 +22,8 @@ The challenge name suggests that Least Significant Bits(LSB) is part of the chal
    Execute the file with
    ```bash
    ./lsb
-   ``` or ```strings lsb```
+   ```
+   or
+   ```bash
+   strings lsb
+   ```
