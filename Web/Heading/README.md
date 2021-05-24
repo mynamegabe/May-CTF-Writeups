@@ -12,7 +12,7 @@
 ### Analysis
 The website asks for a username and has a Flag tab.<br />
 The website does not authenticate based on the Auth cookie this time.<br />
-The challenge name suggests that the challenge is related to HTTP reques/response headers.
+The challenge name suggests that the challenge is related to HTTP request/response headers.
 
 ### Solution
 1. Open Burp Suite
