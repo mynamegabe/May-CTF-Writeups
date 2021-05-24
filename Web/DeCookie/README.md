@@ -23,6 +23,6 @@ The description suggests that an action has to be repeated
 3. Input the answer
    The answer goes through but nothing happens, linking back to the challenge description, but the number of correct answers required is unknown
 4. Write a script
-   Write a program using Python with the Selenium module to read and decode the cookie and send the answer until a flag is returned OR a just send POST requests with the answer.
+   Write a program using Python with the Selenium module to read and decode the cookie and send the answer until a flag is returned OR a just send POST requests with the answer. <br />
    https://github.com/Derrick-Png/CTF-Writeups/tree/main/2021/NYP%20May%20CTF/Decookie
    
